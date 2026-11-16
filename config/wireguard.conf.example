@@ -1,0 +1,9 @@
+# EXEMPLO INERTE: não versionar chaves, completar com materiais gerados localmente.
+[Interface]
+Address = 10.77.0.1/24
+ListenPort = 51820
+PrivateKey = <INSERIR_CHAVE_PRIVADA_EM_ARQUIVO_LOCAL_NAO_VERSIONADO>
+[Peer]
+PublicKey = <CHAVE_PUBLICA_DO_GATEWAY>
+AllowedIPs = 10.77.0.2/32
+PersistentKeepalive = 25

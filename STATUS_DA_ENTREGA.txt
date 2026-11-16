@@ -1,0 +1,16 @@
+REVISÃO GS 2026.2 — VILA AURORA
+Autores: Pedro Nezi, Gustavo Kenji, Gabriel Henrique.
+Os PDFs E1/E3/E4 foram corrigidos para refletir fielmente o protótipo.
+
+O QUE FOI EXECUTADO:
+- Python compilado sintaticamente;
+- teste curto de borda (7,4s): 18 registros enviados e 18 ACKs, zero pendentes;
+- avaliação Isolation Forest em 2.200 dados sintéticos (precisão 62,5%; recall 100%; FPR 6%);
+- detector sintético RT-13: quatro regras geraram eventos.
+
+NÃO FOI TESTADO NESTE AMBIENTE:
+- Servidor Flask HTTP/MFA; pacote Flask ausente e instalação via internet indisponível;
+- MQTT/mTLS/CA/CRL, WireGuard, firewall, Wazuh, SOAR e phishing;
+- corte WAN real ≥30min, consumo energético e laudo forense com hashes originais.
+
+Estas lacunas precisam de execução por parte da equipe antes de declarar atendimento Excelente.

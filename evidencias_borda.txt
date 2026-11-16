@@ -1,0 +1,12 @@
+IA: anomalia detectada
+ALARME LOCAL: condição crítica (simulada)
+{
+  "elapsed_seconds": 7.4,
+  "generated_this_run": 18,
+  "anomaly_events": 1,
+  "acks_this_run": 18,
+  "buffer_total": 18,
+  "pending": 0,
+  "central_url": "http://127.0.0.1:8765/ingest",
+  "proof": "HTTP POST + idempotent ACK; MQTT/mTLS not implemented"
+}

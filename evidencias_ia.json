@@ -1,0 +1,13 @@
+{
+  "dataset": "synthetic; iid holdout; seeded",
+  "normal": 2000,
+  "anomaly": 200,
+  "tp": 200,
+  "tn": 1880,
+  "fp": 120,
+  "fn": 0,
+  "precision": 0.625,
+  "recall": 1.0,
+  "fpr": 0.06,
+  "batch_inference_seconds": 0.01254
+}

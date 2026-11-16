@@ -1,0 +1,5 @@
+# Domínio EXCLUSIVAMENTE fictício; exemplos de registros (não publicados/testados).
+vila-aurora.invalid TXT "v=spf1 -all"
+selector1._domainkey.vila-aurora.invalid TXT "v=DKIM1; k=rsa; p=<CHAVE_PUBLICA_2048_BITS>"
+_dmarc.vila-aurora.invalid TXT "v=DMARC1; p=reject; pct=100; rua=mailto:relatorios@vila-aurora.invalid"
+# Não há serviço de correio configurado: SPF -all bloqueia envio, adequado apenas a domínio inativo.

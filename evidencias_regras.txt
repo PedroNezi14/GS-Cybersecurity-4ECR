@@ -1,0 +1,4 @@
+VA-101 VPN anômala
+VA-102 possível SQLi
+VA-103 certificado inválido
+VA-104 comando não autorizado
